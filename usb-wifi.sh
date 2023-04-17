@@ -3,7 +3,7 @@
 display_usage() {
 	echo "USB网卡WIFI设置"
 	echo -e "\nUsage: $0 AP名称 密码\n"
-	echo -e "\n例如: $0 OpenWrt 12345678\n"
+	echo -e "\n例如: $0 OpenWrt password\n"
 }
 # if less than two arguments supplied, display usage
 if [  $# -le 1 ]
